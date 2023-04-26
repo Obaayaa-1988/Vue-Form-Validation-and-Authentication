@@ -1,16 +1,17 @@
 <template>
-  <div>
-    <h1 class="text-blue-300 w-10 text-3xl font-bold underline">helloooooooooooooooooo</h1>
+  <div class=" bg-gradient-to-r from-cyan-500 to-orange-500 h-screen w-full"> 
+    <ValidateForm />
+   
   </div>
 </template>
 
 <script>
-//  import ValidateForm from './components/ValidateForm.vue'
+ import ValidateForm from './components/ValidateForm.vue'
 
 export default {
   name: 'App',
   components: {
-    // ValidateForm
+    ValidateForm
   }
 }
 </script>
