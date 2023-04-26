@@ -1,27 +1,19 @@
 <template>
-  <div id="app">
-    <h1 class="bg-red-300">helloooooooooooooooooo</h1>
+  <div>
+    <h1 class="text-blue-300 w-10">helloooooooooooooooooo</h1>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+//  import ValidateForm from './components/ValidateForm.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
+    // ValidateForm
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
