@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-blue-300 w-10">helloooooooooooooooooo</h1>
+    <h1 class="text-blue-300 w-10 text-3xl font-bold underline">helloooooooooooooooooo</h1>
   </div>
 </template>
 
