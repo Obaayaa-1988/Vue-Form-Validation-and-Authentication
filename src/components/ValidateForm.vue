@@ -13,7 +13,7 @@
             
                             <p class="pt-12 pb-8"> 
                                 <label for="name" class="block text-gray-700 text-sm font-bold mb-2">FirstName:</label>
-                                <input id="name" type="text" v-model="firstname" required class="drop-shadow-2xl appearance-none border rounded w-3/4 py-2 px-3">
+                                <input id="name" type="text" v-model="firstname" class="drop-shadow-2xl appearance-none border rounded w-3/4 py-2 px-3">
                             </p>
                             <p> 
                                 <label for="name" class="block text-gray-700 text-sm font-bold mb-2">LastName:</label>
@@ -57,13 +57,16 @@ export default {
             firstname: null,
             lastname: null,
             email: null,
-            password:null
+            password:null,
+            errors: [],
 
         }
     },
 
     methods: {
         formSubmitted(){
+            
+           
 
         },
 
