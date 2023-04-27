@@ -87,7 +87,7 @@ export default {
             this.errors =[];
             if(!this.firstname){
                 this.errors.push("Firstname is required, please fill it.");
-                this.firstname = null
+                this.firstname = ''
 
             }
             if(!this.lastname){
